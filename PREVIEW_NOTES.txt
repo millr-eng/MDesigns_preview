@@ -1,0 +1,1 @@
+M Designs local-drafting preview. Upload the CONTENTS of this folder to the repository root. No CNAME included. This preview robots.txt blocks indexing; use the public-site robots.txt from the production branch when going live. This package updates page copy and keeps the V2 layout.
