@@ -1,3 +1,0 @@
-User-agent: *
-Disallow: /
-# Preview site; do not index.
