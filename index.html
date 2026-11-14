@@ -1,0 +1,401 @@
+<!doctype html>
+<html lang="en-GB">
+
+<head>
+    <!-- Must stay the first line inside <head> — makes symbols like ✓ → display correctly -->
+    <meta charset="utf-8">
+
+<!--
+  =====================================================================
+  M DESIGNS & DRAFTING — HOME PAGE (index.html)
+  =====================================================================
+  HOW TO EDIT THIS PAGE
+  - Every section is marked with a banner like:   ===== 3. SERVICES =====
+  - Use Ctrl+F (Cmd+F on Mac) and search the section name to jump to it.
+  - Only change the TEXT between tags, e.g.  <h2>change this</h2>
+  - Don't delete the < > tags or the class="..." parts — they control the styling.
+  - To add another card / list item / step, copy an existing one
+    (from its opening tag to its closing tag) and paste it below.
+
+  SECTIONS ON THIS PAGE
+    0. Page settings (title, Google description)
+    1. Header & menu
+    2. Hero (big intro at the top)
+    3. Trust bar (ticks strip)
+    4. Services (3 cards)
+    5. Who it is for
+    6. How it works (4 steps)
+    7. Pricing teaser
+    8. Call to action (dark band)
+    9. Footer
+  =====================================================================
+-->
+
+    <!-- ===== 0. PAGE SETTINGS ===== -->
+    <!-- Title shown in the browser tab and Google results -->
+    <title>CAD Drafting &amp; 3D Modelling in Essex | M Designs &amp; Drafting</title>
+
+    <!-- Short description shown under the title in Google results -->
+    <meta name="description" content="Independent CAD drawing amendments, PDF-to-DWG conversions, fabrication drawings and 3D modelling in Colchester, Essex and nearby areas.">
+
+    <!-- Preview shown when the link is shared (WhatsApp, LinkedIn etc.) -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="CAD Drafting &amp; 3D Modelling in Essex">
+    <meta property="og:description" content="Independent CAD drawing amendments, PDF-to-DWG conversions, fabrication drawings and 3D modelling in Colchester, Essex and nearby areas.">
+    <meta property="og:url" content="https://m-designs.uk/">
+
+    <!-- Technical settings — leave these alone -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#101f31">
+    <link rel="canonical" href="https://m-designs.uk/">
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+
+<body>
+
+    <!-- Accessibility: hidden "skip to content" link for keyboard users — leave alone -->
+    <a href="#main"
+       style="position:absolute; top:-70px; left:20px; background:white; color:black; z-index:10"
+       onfocus="this.style.top='12px'"
+       onblur="this.style.top='-70px'">Skip to content</a>
+
+
+    <!-- ===================================================== -->
+    <!-- ===== 1. HEADER & MENU                          ===== -->
+    <!-- ===================================================== -->
+    <!-- Tip: on other pages, move class="active" to that page's link -->
+    <header class="top">
+        <div class="container">
+
+            <a href="index.html" class="brand">M DESIGNS <span>&amp; Drafting Services</span></a>
+
+            <button type="button" class="menu" aria-expanded="false" aria-label="Toggle navigation">Menu ☰</button>
+
+            <nav class="nav" aria-label="Main navigation">
+                <a href="index.html" class="active">Home</a>
+                <a href="services.html">Services</a>
+                <a href="pricing.html">Pricing</a>
+                <a href="work.html">Work</a>
+                <a href="about.html">About</a>
+                <a href="contact.html" class="navcta">Request a quote</a>
+            </nav>
+
+        </div>
+    </header>
+
+
+    <main id="main">
+
+        <!-- ===================================================== -->
+        <!-- ===== 2. HERO (big intro at the top)            ===== -->
+        <!-- ===================================================== -->
+        <section class="hero">
+            <div class="container hero-inner">
+
+                <!-- Left side: text -->
+                <div>
+                    <p class="eyebrow">Independent CAD &amp; Technical Drawing Services</p>
+
+                    <h1>Professional CAD Drafting &amp; 3D Modelling Services.</h1>
+
+                    <p class="lead">
+                        Providing 2D CAD drawings, steelwork and fabrication detailing, technical drawing
+                        support and 3D modelling for architects, engineers, contractors, fabricators and
+                        local tradespeople.
+                    </p>
+
+                    <div class="actions">
+                        <a href="contact.html" class="btn">Request a quote →</a>
+                        <a href="services.html" class="btn ghost">Explore services</a>
+                    </div>
+                </div>
+
+                <!-- Right side: drawing illustration -->
+                <div class="hero-visual">
+
+                    <!-- ---- START OF DRAWING (SVG) — no need to edit ---- -->
+                    <svg viewBox="0 0 500 330" xmlns="http://www.w3.org/2000/svg" role="img"
+                         aria-label="Illustrative mechanical bracket technical drawing">
+                        <defs>
+                            <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse">
+                                <path d="M20 0H0V20" fill="none" stroke="#b9d1de" stroke-width=".6" />
+                            </pattern>
+                        </defs>
+
+                        <!-- Background + grid -->
+                        <rect width="500" height="330" fill="#e9f3f9" />
+                        <rect width="500" height="330" fill="url(#grid)" />
+
+                        <!-- Linework -->
+                        <g fill="none" stroke="#266187" stroke-width="2">
+                            <path d="M105 100h130v95H105z" />
+                            <circle cx="128" cy="123" r="8" />
+                            <circle cx="212" cy="123" r="8" />
+                            <circle cx="128" cy="172" r="8" />
+                            <circle cx="212" cy="172" r="8" />
+                            <path d="M300 195v-95h18v77h95v18z" />
+                            <path d="M105 80v-19m130 19v-19M105 69h130m-130-7l7 7-7 7m130-14l-7 7 7 7M80 100H61m19 95H61m9-95v95m-7-95l7 7 7-7m-7 95l7-7 7 7" />
+                            <path d="M288 195v-95m-4 0h9m-9 95h9m5-95l-10 8m0 79l10 8" />
+                        </g>
+
+                        <!-- Text labels on the drawing (safe to edit the words) -->
+                        <g fill="#235c80" font-family="monospace" font-size="13">
+                            <text x="156" y="59">130</text>
+                            <text x="38" y="155" transform="rotate(-90 38 155)">95</text>
+                            <text x="320" y="90">SIDE VIEW</text>
+                            <text x="106" y="223">FRONT VIEW</text>
+                            <text x="104" y="285">ILLUSTRATIVE DRAWING • NOT FOR MANUFACTURE</text>
+                        </g>
+
+                        <path d="M45 255h410" stroke="#9bbace" />
+                    </svg>
+                    <!-- ---- END OF DRAWING ---- -->
+
+                    <p>Illustrative CAD drawing — not a client project.</p>
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- ===================================================== -->
+        <!-- ===== 3. TRUST BAR (ticks strip)                ===== -->
+        <!-- ===================================================== -->
+        <div class="trust">
+            <div class="container">
+                <span>✓ Chartered engineering background</span>
+                <span>✓ Select projects, clearly scoped</span>
+                <span>✓ Defined deliverables</span>
+                <span>✓ Based in Essex</span>
+            </div>
+        </div>
+
+
+        <!-- ===================================================== -->
+        <!-- ===== 4. SERVICES (3 cards)                     ===== -->
+        <!-- ===================================================== -->
+        <section class="section">
+            <div class="container">
+
+                <div class="section-head">
+                    <p class="eyebrow">What I do</p>
+                    <h2>Flexible drafting support for busy local businesses.</h2>
+                    <p class="muted">
+                        From a joinery workshop detail to a revised fabrication drawing or a simple 3D
+                        model, every assignment is considered individually and quoted against an agreed brief.
+                    </p>
+                </div>
+
+                <div class="cards">
+
+                    <!-- Card 1 -->
+                    <article class="card">
+                        <div class="number">01</div>
+                        <h3>Drawing amendments</h3>
+                        <p>Update an existing drawing from redline markups, correct dimensions, revise notes or produce an updated issue.</p>
+                        <a class="more" href="services.html">Explore services →</a>
+                    </article>
+
+                    <!-- Card 2 -->
+                    <article class="card">
+                        <div class="number">02</div>
+                        <h3>Sketch / PDF to CAD</h3>
+                        <p>Turn a hand sketch, measured layout or reference PDF into a clean, editable CAD drawing.</p>
+                        <a class="more" href="services.html">Explore services →</a>
+                    </article>
+
+                    <!-- Card 3 -->
+                    <article class="card">
+                        <div class="number">03</div>
+                        <h3>Fabrication drawings</h3>
+                        <p>Prepare practical manufacturing and fabrication drawings from a supplied and agreed design.</p>
+                        <a class="more" href="services.html">Explore services →</a>
+                    </article>
+
+                </div>
+
+                <div class="actions">
+                    <a href="services.html" class="btn">All services →</a>
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- ===================================================== -->
+        <!-- ===== 5. WHO IT IS FOR                          ===== -->
+        <!-- ===================================================== -->
+        <section class="section alt">
+            <div class="container grid2">
+
+                <!-- Left column -->
+                <div>
+                    <p class="eyebrow">Who it is for</p>
+                    <h2>Useful support for busy workshops and small teams.</h2>
+                    <p class="muted">For businesses with occasional drafting requirements that don't justify a permanent CAD resource.</p>
+
+                    <ul class="ticks">
+                        <li>Metal fabricators and engineering workshops</li>
+                        <li>Carpenters, joiners and bespoke furniture makers</li>
+                        <li>Local builders and construction contractors</li>
+                        <li>Architects, designers and mechanical installers</li>
+                    </ul>
+                </div>
+
+                <!-- Right column (shaded box) -->
+                <div class="band">
+                    <h3>Typical reasons to get in touch</h3>
+
+                    <ul class="ticks">
+                        <li>“I have a marked-up PDF to update.”</li>
+                        <li>“Can you turn this sketch into a DWG?”</li>
+                        <li>“We need a workshop drawing for a bracket or cabinet.”</li>
+                        <li>“Could you model this joinery or installation in 3D?”</li>
+                    </ul>
+
+                    <a class="btn" href="contact.html">Send your brief →</a>
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- ===================================================== -->
+        <!-- ===== 6. HOW IT WORKS (4 steps)                 ===== -->
+        <!-- ===================================================== -->
+        <section class="section">
+            <div class="container">
+
+                <div class="section-head">
+                    <p class="eyebrow">How it works</p>
+                    <h2>From rough sketch to useful deliverable.</h2>
+                </div>
+
+                <div class="steps">
+
+                    <!-- Step 1 -->
+                    <div class="step">
+                        <h3>Send the information</h3>
+                        <p>Share a sketch, PDF, dimensions, photos or existing CAD files.</p>
+                    </div>
+
+                    <!-- Step 2 -->
+                    <div class="step">
+                        <h3>Agree the scope</h3>
+                        <p>Confirm outputs, assumptions, checks, quotation and timescale.</p>
+                    </div>
+
+                    <!-- Step 3 -->
+                    <div class="step">
+                        <h3>Draft and review</h3>
+                        <p>The drawing or model is prepared and checked against the agreed information.</p>
+                    </div>
+
+                    <!-- Step 4 -->
+                    <div class="step">
+                        <h3>Receive your files</h3>
+                        <p>Receive the agreed PDF, DWG, DXF or model files.</p>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- ===================================================== -->
+        <!-- ===== 7. PRICING TEASER                         ===== -->
+        <!-- ===================================================== -->
+        <section class="section alt">
+            <div class="container grid2">
+
+                <!-- Left column -->
+                <div>
+                    <p class="eyebrow">Clear pricing</p>
+                    <h2>Defined projects, sensible quotations.</h2>
+                    <p class="muted">
+                        I focus on manageable, clearly specified drafting assignments. Every project is
+                        quoted individually, with the deliverables, revision allowance and realistic
+                        timescale agreed in advance.
+                    </p>
+                    <a class="btn" href="pricing.html">How pricing works →</a>
+                </div>
+
+                <!-- Right column (box) -->
+                <div class="contactbox">
+                    <p class="label">Common first projects</p>
+                    <h3>Drawing amendments, clean-up and conversions</h3>
+                    <p>Ideal for a first project: limited scope, clear inputs and a defined result. Fixed-price quotes where the information is sufficient.</p>
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- ===================================================== -->
+        <!-- ===== 8. CALL TO ACTION (dark band)             ===== -->
+        <!-- ===================================================== -->
+        <section class="cta">
+            <div class="container grid2">
+
+                <div>
+                    <p class="eyebrow">Start small</p>
+                    <h2>Have a well-defined drawing task?</h2>
+                    <p>
+                        Send a short brief and any available sketches or drawings. I'll confirm whether
+                        the project fits my services and availability before providing a quotation.
+                    </p>
+                </div>
+
+                <div class="actions">
+                    <a class="btn light" href="contact.html">Request a quotation →</a>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+
+    <!-- ===================================================== -->
+    <!-- ===== 9. FOOTER                                 ===== -->
+    <!-- ===================================================== -->
+    <footer class="footer">
+        <div class="container footer-inner">
+
+            <!-- Column 1: business name -->
+            <div>
+                <strong>M Designs &amp; Drafting Services</strong>
+                <p>
+                    Independent CAD drafting and 3D modelling.<br>
+                    Based in Colchester. Supporting Essex and nearby areas.
+                </p>
+                <!-- The year updates automatically (script.js) -->
+                <small>© <span id="year">2026</span> M Designs &amp; Drafting.</small>
+            </div>
+
+            <!-- Column 2: links -->
+            <div>
+                <strong>Explore</strong>
+                <p>
+                    <a href="services.html">Services</a> ·
+                    <a href="pricing.html">Pricing</a> ·
+                    <a href="work.html">Work</a><br>
+                    <a href="about.html">About</a> ·
+                    <a href="contact.html">Contact</a>
+                </p>
+            </div>
+
+            <!-- Column 3: email (change it in BOTH places on the line below) -->
+            <div>
+                <strong>Start with a drawing</strong>
+                <p><a href="mailto:Mdesigns.engineering@gmail.com">Mdesigns.engineering@gmail.com</a></p>
+            </div>
+
+        </div>
+    </footer>
+
+</body>
+
+</html>
