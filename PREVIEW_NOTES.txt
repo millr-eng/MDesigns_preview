@@ -1,0 +1,3 @@
+M Designs preview update. Upload the CONTENTS of this ZIP to the preview repository root, including assets. No CNAME is included. Preview robots.txt blocks indexing; use production robots.txt when going live. Homepage wording and selected photographs updated; existing layouts, service diagrams without matching photos, and work examples retained. Confirm rights for supplied photographs before public use.
+
+V3: six service detail pages use the identical image files as their respective service menu cards. Homepage headline and introductory copy verified. Upload to the preview repository only.
