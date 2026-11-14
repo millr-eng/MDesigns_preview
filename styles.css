@@ -62,3 +62,87 @@ h1{letter-spacing:-.055em;line-height:1.08}h2{letter-spacing:-.043em}p{line-heig
 .brief-panel h2{font-size:clamp(2.1rem,3.5vw,3.5rem)}
 @media(max-width:900px){.reference-layout{grid-template-columns:1fr}.reference-hero .hero-picture{max-width:650px}.service-gallery{grid-template-columns:repeat(2,1fr)}.hero-inner{grid-template-columns:1fr}}
 @media(max-width:650px){.top .container{min-height:66px}.menu{color:#163543;border-color:#abbec0}.nav{background:#fff;border-bottom:1px solid #ddd}.nav a{color:#203e4b}.hero,.reference-hero{padding:55px 0}.reference-layout{gap:30px}.service-section{padding:58px 0}.service-gallery{grid-template-columns:1fr}.brief-panel{grid-template-columns:1fr;gap:20px}.section{padding:64px 0}}
+
+
+/* Reversed editorial palette — dark pages, light accents and footer. */
+:root {
+  --white: #162d38;
+  --ink: #f7f6f2;
+  --muted: #c4d0d3;
+  --navy: #f5f4f1;
+  --blue: #e7eceb;
+  --accent: #c47550;
+  --bg: #1b3a48;
+  --line: #45606d;
+}
+body { background: #162d38; color: var(--ink); color-scheme: dark; }
+
+/* Header and navigation */
+.top { background: #17303d; border-color: #39515d; box-shadow: 0 1px 5px #101f3133; }
+.brand { color: #f7f6f2; }
+.brand span { color: #c4d0d3; }
+.nav a { color: #e7eceb; }
+.nav a.active, .nav a:hover { color: #efab89; }
+.nav .navcta, .nav .navcta:hover { background: #f5f4f1; color: #17303d; }
+.menu { color: #f7f6f2; border-color: #71858e; }
+
+/* Main page backgrounds and typography */
+.hero { background: #17303d; color: var(--ink); }
+.subhero, .reference-hero { background: #17303d; color: var(--ink); }
+.section, .service-section, .brief-panel { background: transparent; color: var(--ink); }
+.section.alt, .steps-area { background: #1b3a48; }
+.eyebrow, .hero .eyebrow, .label { color: #efab89; }
+.hero .lead, .lead, .subhero p, .reference-hero .intro, .breadcrumb,
+.muted, .note, .mini, .legal { color: var(--muted); }
+.subhero .eyebrow { color: #efab89; }
+.hero-visual p { color: var(--muted); }
+.hero .hero-visual { filter: drop-shadow(0 16px 20px rgba(0, 0, 0, .3)); }
+
+/* Buttons and links */
+.btn { background: #f5f4f1; border-color: #f5f4f1; color: #17303d; }
+.btn:hover { background: #dbe4e3; border-color: #dbe4e3; color: #17303d; }
+.btn.ghost { background: transparent; border-color: #a8babe; color: #f7f6f2; }
+.btn.ghost:hover { background: #294a58; color: #fff; }
+a:focus-visible, button:focus-visible { outline-color: #efab89; }
+
+/* Cards, lists, pricing and supporting panels */
+.trust { background: #203e4b; border-color: var(--line); }
+.trust .container { color: #e7eceb; }
+.card, .service-tile, details { background: #203e4b; border-color: var(--line); }
+.card:hover { box-shadow: 0 14px 32px #101f314d; }
+.card p, .service-tile .tile-copy p, .service-tile ul, details p { color: var(--muted); }
+.card .number, .card a.more, .service-tile a, .email,
+.step:before, .ticks li:before, .service-tile li:before { color: #efab89; }
+.step, .steps-area .step { border-color: #c47550; }
+.band, .contactbox, .scope { background: #294a58; border-color: #45606d; }
+.scope { border-left-color: #c47550; }
+.price { color: #f7f6f2; }
+.pill { background: #f0f1ef; color: #17303d; }
+
+/* Preserve technical illustrations and original photograph colours */
+.reference-hero .hero-picture, .portfolio .drawing-preview, .mock-drawing {
+  background: #294a58;
+  border-color: #45606d;
+}
+.reference-hero .hero-picture { box-shadow: 0 26px 55px #101f3140; }
+.reference-hero .picture-label { background: #f5f4f1; color: #17303d; }
+
+/* Previously dark areas become light */
+.cta, .section.navy { background: #f5f4f1; color: #192a31; }
+.cta p, .section.navy .muted { color: #52636a; }
+.cta .eyebrow, .section.navy .eyebrow { color: #a45431; }
+.cta .btn, .cta .btn.light, .section.navy .btn {
+  background: #1e4555; border-color: #1e4555; color: #fff;
+}
+.cta .btn:hover, .section.navy .btn:hover { background: #17303d; color: #fff; }
+.footer { background: #f7f6f2; color: #33454c; color-scheme: light; }
+.footer strong, .footer a { color: #193744; }
+.footer a:hover { color: #a45431; }
+
+/* Mobile navigation follows the reversed header palette */
+@media (max-width: 650px) {
+  .nav { background: #17303d; border-color: #45606d; }
+  .nav a { color: #e7eceb; }
+  .nav a.active, .nav a:hover { color: #efab89; }
+  .nav .navcta, .nav .navcta:hover { background: #f5f4f1; color: #17303d; }
+}
