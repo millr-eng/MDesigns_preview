@@ -179,3 +179,6 @@ a:focus-visible, button:focus-visible { outline-color: var(--studio-copper); }
   .nav a.active, .nav a:hover { color: var(--studio-copper); }
   .nav .navcta, .nav .navcta:hover { background: var(--navy); color: #fff; }
 }
+
+/* Work page: image-based drawing previews */
+.portfolio .drawing-preview img{display:block;width:100%;height:auto}
