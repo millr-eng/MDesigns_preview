@@ -186,3 +186,8 @@ a:focus-visible, button:focus-visible { outline-color: var(--studio-copper); }
 /* Page title sizes (smaller, consistent across pages) */
 .subhero h1,.reference-hero h1{font-size:clamp(2.1rem,3.6vw,3.3rem)}
 h2,.service-head h2,.brief-panel h2{font-size:clamp(1.8rem,3.06vw,2.7rem)}
+
+/* Typeface: IBM Plex Sans, with normal (not squeezed) heading spacing */
+body{font-family:"IBM Plex Sans",ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif}
+h1,h2,h3,.service-tile .tile-copy h3{letter-spacing:-.01em;font-weight:600}
+.brand{letter-spacing:-.01em;font-weight:700}
