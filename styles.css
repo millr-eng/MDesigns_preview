@@ -182,3 +182,7 @@ a:focus-visible, button:focus-visible { outline-color: var(--studio-copper); }
 
 /* Work page: image-based drawing previews */
 .portfolio .drawing-preview img{display:block;width:100%;height:auto}
+
+/* Page title sizes (smaller, consistent across pages) */
+.subhero h1,.reference-hero h1{font-size:clamp(2.1rem,3.6vw,3.3rem)}
+h2,.service-head h2,.brief-panel h2{font-size:clamp(1.8rem,3.06vw,2.7rem)}
